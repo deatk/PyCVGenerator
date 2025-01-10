@@ -2,6 +2,29 @@
 
 **PyCVGenerator** is a simple curriculum vitae generator written in Python. It takes your personal data and generates a formatted `.docx` file for your CV.
 
+# How to Install Dependencies
+
+Create a virtual environment (optional but recommended):
+
+On Windows:\
+     ```bash
+     python -m venv venv
+     .\venv\Scripts\activate
+     ```
+
+On macOS/Linux:\
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
+Install the required dependencies: After activating the virtual environment, install the necessary dependencies with pip:\
+    ```bash
+     pip install -r requirements.txt
+     ```
+
+Verify the installation: Make sure all dependencies are correctly installed. Now you can run the program.
+
 ## How to Use
 
 1. **Replace `content.xml`**  
