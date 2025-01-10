@@ -1,4 +1,5 @@
 {
-    "output_path": "C:/Users/aless/Documents/Alessandro_Cortese_CV_tmp.docx",
-    "image_path": "C:/Users/aless/Documents/cv_pic.jpg"
+    "content_path": "content.xml",
+    "output_path": "MaxMustermannCV.docx",
+    "image_path": "cv_pic.jpg"
 }

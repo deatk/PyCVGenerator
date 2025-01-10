@@ -9,11 +9,12 @@ with open('config.json', 'r') as config_file:
     config = json.load(config_file)
 
 # Replace placeholder with actual path
+input_file = (config['content_path'])
 output_path = os.path.expandvars(config['output_path'])
 image_path = os.path.expandvars(config['image_path'])
 
 # Parse the XML file
-tree = ET.parse('content.xml')
+tree = ET.parse(input_file)
 root = tree.getroot()
 
 # Create a new Document
