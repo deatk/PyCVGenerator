@@ -6,22 +6,23 @@
 
 Create a virtual environment (optional but recommended):
 
-On Windows:\
-     ```bash
-     python -m venv venv
-     .\venv\Scripts\activate
-     ```
+On Windows:
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
 
-On macOS/Linux:\
-     ```bash
-     python3 -m venv venv
-     source venv/bin/activate
-     ```
+On macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-Install the required dependencies: After activating the virtual environment, install the necessary dependencies with pip:\
-    ```bash
-     pip install -r requirements.txt
-     ```
+Install the required dependencies: 
+After activating the virtual environment, install the necessary dependencies with pip:
+```bash
+pip install -r requirements.txt
+```
 
 Verify the installation: Make sure all dependencies are correctly installed. Now you can run the program.
 
